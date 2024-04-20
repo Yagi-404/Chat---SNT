@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <title>Chat</title>
+</head>
+<body>
+    <div class="connexion" id="connexionFrame">
+        <h2 class="connexion-text">Connexion</h2>
+
+        <input type="text" name="username" id="userNameInput" placeholder="Votre nom d'utilisateur">
+        <input type="button" value="Soumettre" id="submitUsernameButton">
+    </div>
+    <div class="app" id="app">
+        <header>
+            <h1>Chat</h1>
+        </header>
+        <div class="chat-container" id="chatContainer">
+            <!-- Les messages apparaissent ici -->
+        </div>
+        <div class="textbar-container">
+            <input type="text" class="textbar" id="textBar" placeholder="Tapez votre message...">
+
+            <input type="button" value="Envoyer" class="send-button" id="sendButton">
+        </div>
+    </div>
+</body>
+</html>

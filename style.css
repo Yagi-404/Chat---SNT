@@ -1,0 +1,93 @@
+html {
+    background-color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    background-color: #322222;
+    color: #cdd4db;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 100%;
+    text-align: center;
+    pointer-events: none;
+}
+
+header {
+    padding: 45%;
+    background-color: #0d0d0d;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.textbar-container {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 50%;
+}
+
+.textbar {
+    width: 75%;
+    height: 30px;
+}
+
+.send-button {
+    width: 25%;
+    height: 35px;
+    margin-bottom: 0;
+    background-color: green;
+    background-image: url("./res/j6nxnm5w.bmp");
+}
+
+.chat-container {
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* font-size: 80px; */
+}
+
+#messageObject {
+    position: relative;
+    word-break: break-word;
+    background-color: #006060;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 20em;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+}
+
+.msg-date {
+    font-size: 10px;
+    display: flex;
+    align-self: flex-start;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.connexion {
+    position: absolute;
+    top: 30%;
+    right: 33%;
+    background-color: #0d0d0d;
+    color: #cdd4db;
+    width: 30em;
+    height: 15em;
+    display: grid;
+    padding: 20px;
+}
+
+.connexion-text {
+    font-size: 20px;
+}
